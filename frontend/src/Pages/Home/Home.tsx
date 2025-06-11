@@ -113,7 +113,7 @@ const Home = () => {
           </div>
         </div>
         <div className="text-center text-[36px] font-medium mb-8">Pricing</div>
-        <div className="flex lg:px-[10vw] justify-center w-full px-10 gap-10 mb-20 items-center">
+        <div className="flex lg:px-[10vw] justify-center w-full px-10 gap-10 mb-20 items-center ">
           <PricingCard
             plan="Basic"
             price="₹200"
