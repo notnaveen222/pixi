@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "ClashGrotesk";
+  src: url("./assets/clash-grotesk/ClashGrotesk-Extralight.otf")
+    format("opentype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ClashGrotesk";
+  src: url("./assets/clash-grotesk/ClashGrotesk-Light.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ClashGrotesk";
+  src: url("./assets/clash-grotesk/ClashGrotesk-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ClashGrotesk";
+  src: url("./assets/clash-grotesk/ClashGrotesk-Medium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ClashGrotesk";
+  src: url("./assets/clash-grotesk/ClashGrotesk-Semibold.otf")
+    format("opentype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ClashGrotesk";
+  src: url("./assets/clash-grotesk/ClashGrotesk-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+* {
+  font-family: "ClashGrotesk";
+  box-sizing: border-box;
+}
+
+.text-md {
+  font-size: 16px;
+}
+.text-17 {
+  font-size: 17px;
+}
+
+.bg-customBlue {
+  background-color: #1980e5;
+}
+
+.desc-color {
+  color: #6e6e6e;
+}
