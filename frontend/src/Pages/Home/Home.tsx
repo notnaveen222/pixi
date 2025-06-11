@@ -6,6 +6,7 @@ import wandIcon from "../../assets/wand.png";
 import deliverIcon from "../../assets/truck.png";
 import PricingCard from "../../Components/PricingCard";
 import FaqBox from "../../Components/FaqBox";
+import Footer from "../../Components/Footer";
 
 const Home = () => {
   const processDescriptions = [
@@ -154,6 +155,7 @@ const Home = () => {
             description={FAQs[2]["description"]}
           />
         </div>
+        <Footer />
       </div>
     </>
   );
